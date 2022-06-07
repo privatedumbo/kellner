@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "kellner"
+version = "0.1.0"
+description = "Overridable, portable and simple online ML serving library"
+authors = ["Franco Bocci"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.19.0"
+isort = "^5.10.1"
+flake8 = "^4.0.1"
+black = "^22.3.0"
+pytest-mock = "^3.7.0"
+pytest-cov = "^3.0.0"
+autoflake = "^1.4"
+mypy = "^0.961"
+pyclean = "^2.2.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
